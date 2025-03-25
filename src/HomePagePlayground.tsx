@@ -8,7 +8,32 @@ const HomePagePlayground: React.FC = () => {
     <div className='min-h-screen flex flex-col w-full'>
       <>
         <Header></Header>
-        <Main>Nuestro supuesto contenido Drive Market</Main>
+        <Main>
+          <div>
+            Nuestro supuesto contenido Drive Market
+            <br />
+          </div>
+          <div>
+            Nuestro supuesto contenido Drive Market
+            <br />
+          </div>
+          <div>
+            Nuestro supuesto contenido Drive Market
+            <br />
+          </div>
+          <div>
+            Nuestro supuesto contenido Drive Market
+            <br />
+          </div>
+          <div>
+            Nuestro supuesto contenido Drive Market
+            <br />
+          </div>
+          <div>
+            Nuestro supuesto contenido Drive Market
+            <br />
+          </div>
+        </Main>
         <Footer></Footer>
       </>
     </div>

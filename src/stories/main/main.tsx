@@ -12,7 +12,7 @@ export interface MainProps {
 
 export const Main: React.FC<MainProps> = ({ children }) => {
   return (
-    <main className=' flex-1 max-w-5xl  mt-20 mx-auto p-8 text-center '>
+    <main className=' flex flex-col flex-1  max-w-5xl  mt-20 mx-auto p-8 text-center sm:flex-row '>
       {children}
     </main>
   )
