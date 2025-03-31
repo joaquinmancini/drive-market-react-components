@@ -2,6 +2,7 @@ import React from 'react'
 import { Footer } from './stories/footer/footer'
 import { Header } from './stories/header/Header'
 import { Main } from './stories/main/main'
+import { Button } from './stories/button/Button'
 
 const HomePagePlayground: React.FC = () => {
   return (
@@ -10,8 +11,10 @@ const HomePagePlayground: React.FC = () => {
         <Header></Header>
         <Main>
           <div>
-            Nuestro supuesto contenido Drive Market
-            <br />
+            <Button
+              label={'Drive Market'}
+              color='primary'
+            />
           </div>
           <div>
             Nuestro supuesto contenido Drive Market
