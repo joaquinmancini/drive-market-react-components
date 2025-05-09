@@ -1,8 +1,9 @@
 {
-  "name": "drive-market-react-components",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "@drivemarket/drive-market-react-components",
+  "version": "1.0.0",
+  "description": "Componentes del proyecto Web Drive Market",
+  "main": "dist/index.js",
+  "module": "",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -50,5 +51,15 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaquinmancini/drive-market-react-components.git"
+  },
+  "author": "DriveMarket",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaquinmancini/drive-market-react-components/issues"
+  },
+  "homepage": "https://github.com/joaquinmancini/drive-market-react-components#readme"
 }
