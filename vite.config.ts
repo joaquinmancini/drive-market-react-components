@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss(), dts({ insertTypesEntry: true })],
   build: {
     lib: {
+      //Posible prueba->  entry: 'src/index.ts',
       entry: './src/index.ts',
       name: '@drivemarket/drive-market-react-components',
       fileName: 'index',
