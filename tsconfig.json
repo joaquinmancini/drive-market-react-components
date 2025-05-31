@@ -1,12 +1,19 @@
 {
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",
     "declaration": true,
+    "declarationDir": "dist/types",
     "emitDeclarationOnly": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  //Ver de exportar solo lo necesario (?)
+  "include": ["src"]
 }

@@ -5,7 +5,7 @@ import dts from 'vite-plugin-dts'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss(), dts()],
+  plugins: [react(), tailwindcss(), dts({ insertTypesEntry: true })],
   build: {
     lib: {
       entry: './src/index.ts',
@@ -21,6 +21,8 @@ export default defineConfig({
           'react-dom': 'ReactDOM'
         }
       }
-    }
+    },
+    outDir: 'dist',
+    emptyOutDir: true
   }
 })
