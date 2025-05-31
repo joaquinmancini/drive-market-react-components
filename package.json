@@ -1,6 +1,6 @@
 {
   "name": "@drivemarket/drive-market-react-components",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Componentes del proyecto Web Drive Market",
   "main": "dist/index.cjs",
   "type": "module",
