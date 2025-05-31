@@ -39,6 +39,7 @@ export const Button: React.FC<ButtonProps> = ({
         `${colorVariants[color]}`,
         className
       )}
+      //Ver si lo dejamos o sacamos
       style={{}}
     >
       {label}
