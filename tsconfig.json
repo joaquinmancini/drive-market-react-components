@@ -1,4 +1,9 @@
 {
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist"
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
