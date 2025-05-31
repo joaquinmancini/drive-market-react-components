@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Componentes del proyecto Web Drive Market",
   "main": "dist/index.js",
-  "module": "",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
