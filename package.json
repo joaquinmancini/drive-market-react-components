@@ -2,7 +2,7 @@
   "name": "@drivemarket/drive-market-react-components",
   "version": "1.1.4",
   "description": "Componentes del proyecto Web Drive Market",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
   "type": "module",
   "module": "dist/index.es.js",
   "types": "dist/types/index.d.ts",
@@ -10,7 +10,7 @@
     ".": {
       "types": "./dist/types/index.d.ts",
       "import": "./dist/index.es.js",
-      "require": "./dist/index.js"
+      "require": "./dist/index.cjs"
     }
   },
   "files": [
